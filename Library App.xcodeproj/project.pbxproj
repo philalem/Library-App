@@ -14,6 +14,9 @@
 		8075A20820B98BCF00789998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8075A20720B98BCF00789998 /* Assets.xcassets */; };
 		8075A20B20B98BCF00789998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8075A20920B98BCF00789998 /* LaunchScreen.storyboard */; };
 		8075A21620B98BCF00789998 /* Library_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A21520B98BCF00789998 /* Library_AppTests.swift */; };
+		8075A22420BC3AA800789998 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A22320BC3AA800789998 /* Library.swift */; };
+		8075A22820BC3BA100789998 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A22720BC3BA100789998 /* Floor.swift */; };
+		8075A22A20BC3C5200789998 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A22920BC3C5200789998 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		8075A21120B98BCF00789998 /* Library AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8075A21520B98BCF00789998 /* Library_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_AppTests.swift; sourceTree = "<group>"; };
 		8075A21720B98BCF00789998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8075A22320BC3AA800789998 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		8075A22720BC3BA100789998 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		8075A22920BC3C5200789998 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8AC5C8BAF6DA2FD27FA35024 /* Pods-Library App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Library App/Pods-Library App.release.xcconfig"; sourceTree = "<group>"; };
 		FDED8288BEF9E049620A3054 /* Pods_Library_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,6 +70,7 @@
 		8075A1F420B98BCE00789998 = {
 			isa = PBXGroup;
 			children = (
+				8075A22020BC304600789998 /* Models */,
 				8075A1FF20B98BCE00789998 /* Library App */,
 				8075A21420B98BCF00789998 /* Library AppTests */,
 				8075A1FE20B98BCE00789998 /* Products */,
@@ -101,6 +108,16 @@
 				8075A21720B98BCF00789998 /* Info.plist */,
 			);
 			path = "Library AppTests";
+			sourceTree = "<group>";
+		};
+		8075A22020BC304600789998 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8075A22320BC3AA800789998 /* Library.swift */,
+				8075A22720BC3BA100789998 /* Floor.swift */,
+				8075A22920BC3C5200789998 /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D9FBC40C20FCB867F8DDCCCA /* Pods */ = {
@@ -264,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8075A22820BC3BA100789998 /* Floor.swift in Sources */,
 				8075A20320B98BCE00789998 /* ViewController.swift in Sources */,
+				8075A22A20BC3C5200789998 /* Location.swift in Sources */,
 				8075A20120B98BCE00789998 /* AppDelegate.swift in Sources */,
+				8075A22420BC3AA800789998 /* Library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
