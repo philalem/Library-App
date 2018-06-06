@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70799DDC0D92F107CD289945 /* Pods_Library_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDED8288BEF9E049620A3054 /* Pods_Library_App.framework */; };
-		80727ECE20C5E03C00499EE8 /* lib&learnLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80727ECD20C5E03C00499EE8 /* lib&learnLogo.png */; };
+		80727ED220C6255B00499EE8 /* LibraryStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80727ED120C6255B00499EE8 /* LibraryStatusTableViewCell.swift */; };
 		8075A20120B98BCE00789998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A20020B98BCE00789998 /* AppDelegate.swift */; };
 		8075A20320B98BCE00789998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A20220B98BCE00789998 /* ViewController.swift */; };
 		8075A20620B98BCE00789998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8075A20420B98BCE00789998 /* Main.storyboard */; };
@@ -18,6 +18,8 @@
 		8075A22420BC3AA800789998 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A22320BC3AA800789998 /* Library.swift */; };
 		8075A22820BC3BA100789998 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A22720BC3BA100789998 /* Floor.swift */; };
 		8075A22A20BC3C5200789998 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075A22920BC3C5200789998 /* Location.swift */; };
+		80D6B6C020C7387100997420 /* whiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6B6BF20C7387100997420 /* whiteLogo.png */; };
+		80D6B6C220C7816100997420 /* backgroungPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6B6C120C7816000997420 /* backgroungPurple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		37C3FB0F0D43E30B94CAAEE5 /* Pods-Library App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Library App/Pods-Library App.debug.xcconfig"; sourceTree = "<group>"; };
-		80727ECD20C5E03C00499EE8 /* lib&learnLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lib&learnLogo.png"; path = "../../../../.Trash/lib&learnLogo.png"; sourceTree = "<group>"; };
+		80727ED120C6255B00499EE8 /* LibraryStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStatusTableViewCell.swift; sourceTree = "<group>"; };
 		8075A1FD20B98BCE00789998 /* Library App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8075A20020B98BCE00789998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8075A20220B98BCE00789998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +48,10 @@
 		8075A22320BC3AA800789998 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		8075A22720BC3BA100789998 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
 		8075A22920BC3C5200789998 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		80D6B6BD20C7372C00997420 /* background(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background(1).png"; sourceTree = "<group>"; };
+		80D6B6BE20C7373E00997420 /* lib&learnLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lib&learnLogo.png"; path = "../../../../.Trash/lib&learnLogo.png"; sourceTree = "<group>"; };
+		80D6B6BF20C7387100997420 /* whiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteLogo.png; sourceTree = "<group>"; };
+		80D6B6C120C7816000997420 /* backgroungPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroungPurple.png; sourceTree = "<group>"; };
 		8AC5C8BAF6DA2FD27FA35024 /* Pods-Library App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Library App/Pods-Library App.release.xcconfig"; sourceTree = "<group>"; };
 		FDED8288BEF9E049620A3054 /* Pods_Library_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +78,10 @@
 		80727ECA20C5DF0700499EE8 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				80D6B6C120C7816000997420 /* backgroungPurple.png */,
+				80D6B6BF20C7387100997420 /* whiteLogo.png */,
+				80D6B6BE20C7373E00997420 /* lib&learnLogo.png */,
+				80D6B6BD20C7372C00997420 /* background(1).png */,
 			);
 			path = Pictures;
 			sourceTree = "<group>";
@@ -79,6 +89,7 @@
 		8075A1F420B98BCE00789998 = {
 			isa = PBXGroup;
 			children = (
+				80727ED120C6255B00499EE8 /* LibraryStatusTableViewCell.swift */,
 				80727ECA20C5DF0700499EE8 /* Pictures */,
 				8075A22020BC304600789998 /* Models */,
 				8075A1FF20B98BCE00789998 /* Library App */,
@@ -105,7 +116,6 @@
 				8075A20220B98BCE00789998 /* ViewController.swift */,
 				8075A20420B98BCE00789998 /* Main.storyboard */,
 				8075A20720B98BCF00789998 /* Assets.xcassets */,
-				80727ECD20C5E03C00499EE8 /* lib&learnLogo.png */,
 				8075A20920B98BCF00789998 /* LaunchScreen.storyboard */,
 				8075A20C20B98BCF00789998 /* Info.plist */,
 			);
@@ -231,9 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80727ECE20C5E03C00499EE8 /* lib&learnLogo.png in Resources */,
 				8075A20B20B98BCF00789998 /* LaunchScreen.storyboard in Resources */,
 				8075A20820B98BCF00789998 /* Assets.xcassets in Resources */,
+				80D6B6C220C7816100997420 /* backgroungPurple.png in Resources */,
+				80D6B6C020C7387100997420 /* whiteLogo.png in Resources */,
 				8075A20620B98BCE00789998 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +306,7 @@
 			files = (
 				8075A22820BC3BA100789998 /* Floor.swift in Sources */,
 				8075A20320B98BCE00789998 /* ViewController.swift in Sources */,
+				80727ED220C6255B00499EE8 /* LibraryStatusTableViewCell.swift in Sources */,
 				8075A22A20BC3C5200789998 /* Location.swift in Sources */,
 				8075A20120B98BCE00789998 /* AppDelegate.swift in Sources */,
 				8075A22420BC3AA800789998 /* Library.swift in Sources */,
