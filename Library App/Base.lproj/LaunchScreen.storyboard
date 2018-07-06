@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroungPurple.png" translatesAutoresizingMaskIntoConstraints="NO" id="nqc-Qy-6Ap">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundBlack.png" translatesAutoresizingMaskIntoConstraints="NO" id="nqc-Qy-6Ap">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A better way to study" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogu-bs-hAj">
@@ -55,7 +55,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backgroungPurple.png" width="434" height="736"/>
+        <image name="backgroundBlack.png" width="434" height="736"/>
         <image name="whiteLogo.png" width="285" height="392"/>
     </resources>
 </document>

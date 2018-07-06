@@ -23,7 +23,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>You can only use the app with "Always Allow" enabled</string>
+	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string></string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -36,6 +36,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
